@@ -1,0 +1,131 @@
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: var(--font-sans); }
+  .resume { display: grid; grid-template-columns: 220px 1fr; min-height: 800px; border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; background: var(--color-background-primary); }
+  .sidebar { background: #1a2744; padding: 28px 20px; color: #e8eaf0; }
+  .avatar { width: 80px; height: 80px; border-radius: 50%; background: #2e4080; border: 2px solid #4a6aad; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 500; color: #c5d3f0; margin: 0 auto 12px; }
+  .sidebar-name { text-align: center; font-size: 15px; font-weight: 500; color: #e8eaf0; margin-bottom: 4px; }
+  .sidebar-role { text-align: center; font-size: 11px; color: #8899cc; margin-bottom: 24px; letter-spacing: 0.05em; text-transform: uppercase; }
+  .sidebar-section { margin-bottom: 22px; }
+  .sidebar-heading { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: #5a7abf; font-weight: 500; margin-bottom: 10px; padding-bottom: 4px; border-bottom: 0.5px solid #2e4080; }
+  .contact-item { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; font-size: 12px; color: #aab8d8; line-height: 1.4; }
+  .contact-item i { font-size: 13px; color: #5a7abf; margin-top: 1px; flex-shrink: 0; }
+  .skill-tag { display: inline-block; background: #2e4080; color: #c5d3f0; font-size: 11px; padding: 3px 9px; border-radius: 3px; margin: 3px 3px 0 0; }
+  .lang-item { font-size: 12px; color: #aab8d8; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+  .lang-dot { width: 6px; height: 6px; border-radius: 50%; background: #5a7abf; flex-shrink: 0; }
+  .main { padding: 28px 28px; }
+  .main-name { font-size: 26px; font-weight: 500; color: var(--color-text-primary); letter-spacing: -0.02em; margin-bottom: 2px; }
+  .main-tagline { font-size: 13px; color: #4a6aad; font-weight: 500; margin-bottom: 20px; }
+  .section { margin-bottom: 22px; }
+  .section-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: #4a6aad; font-weight: 500; margin-bottom: 12px; padding-bottom: 5px; border-bottom: 1.5px solid #4a6aad; }
+  .about-text { font-size: 13px; color: var(--color-text-secondary); line-height: 1.7; }
+  .exp-item { margin-bottom: 14px; }
+  .exp-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2px; }
+  .exp-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); }
+  .exp-date { font-size: 11px; color: var(--color-text-secondary); }
+  .exp-company { font-size: 12px; color: #4a6aad; margin-bottom: 5px; }
+  .exp-bullets { list-style: none; padding: 0; }
+  .exp-bullets li { font-size: 12px; color: var(--color-text-secondary); padding: 2px 0 2px 14px; position: relative; line-height: 1.5; }
+  .exp-bullets li::before { content: "→"; position: absolute; left: 0; color: #4a6aad; font-size: 11px; }
+  .edu-item { display: flex; justify-content: space-between; align-items: center; padding: 7px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .edu-item:last-child { border-bottom: none; }
+  .edu-degree { font-size: 13px; font-weight: 500; color: var(--color-text-primary); }
+  .edu-school { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+  .edu-year { font-size: 11px; color: #4a6aad; font-weight: 500; }
+  .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .project-card { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+  .project-name { font-size: 12px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 3px; display: flex; align-items: center; gap: 6px; }
+  .project-name i { font-size: 13px; color: #4a6aad; }
+  .project-desc { font-size: 11px; color: var(--color-text-secondary); line-height: 1.5; }
+</style>
+<h2 class="sr-only">Nandu Bodra — Software Developer Resume</h2>
+<div class="resume">
+  <div class="sidebar">
+    <div class="avatar">NB</div>
+    <div class="sidebar-name">Nandu Bodra</div>
+    <div class="sidebar-role">Software Developer</div>
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Contact</div>
+      <div class="contact-item"><i class="ti ti-mail" aria-hidden="true"></i> nandubodra697@gmail.com</div>
+      <div class="contact-item"><i class="ti ti-phone" aria-hidden="true"></i> +91 93808 16316</div>
+      <div class="contact-item"><i class="ti ti-map-pin" aria-hidden="true"></i> Ranchi, Jharkhand</div>
+      <div class="contact-item"><i class="ti ti-brand-github" aria-hidden="true"></i> github.com/nandubodra</div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Skills</div>
+      <span class="skill-tag">C / C++</span>
+      <span class="skill-tag">Java</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">HTML</span>
+      <span class="skill-tag">CSS</span>
+      <span class="skill-tag">DSA</span>
+      <span class="skill-tag">GitHub</span>
+      <span class="skill-tag">VS Code</span>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Languages</div>
+      <div class="lang-item"><span class="lang-dot"></span>Hindi — Native</div>
+      <div class="lang-item"><span class="lang-dot"></span>English — Proficient</div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="main-name">Nandu Bodra</div>
+    <div class="main-tagline">BCA Student · Web Developer · DSA Enthusiast</div>
+    <div class="section">
+      <div class="section-title">About</div>
+      <div class="about-text">Motivated BCA student with hands-on experience in web development and a strong foundation in DSA and OOP. Built multiple real-world projects using HTML, CSS, JavaScript, and Java. Seeking an internship to apply skills in a collaborative, growth-driven environment.</div>
+    </div>
+    <div class="section">
+      <div class="section-title">Experience</div>
+      <div class="exp-item">
+        <div class="exp-header">
+          <div class="exp-title">Cyber Security Analyst</div>
+          <div class="exp-date">2024</div>
+        </div>
+        <div class="exp-company">Tata Group — Forage Virtual Internship</div>
+        <ul class="exp-bullets">
+          <li>Completed IAM (Identity & Access Management) concepts and implementation tasks</li>
+          <li>Developed understanding of enterprise security strategy and risk mitigation</li>
+          <li>Worked on platform integration basics in a simulated corporate environment</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div class="edu-item">
+        <div><div class="edu-degree">BCA — Bachelor of Computer Applications</div><div class="edu-school">Marwari College, Ranchi</div></div>
+        <div class="edu-year">2024 – 2027</div>
+      </div>
+      <div class="edu-item">
+        <div><div class="edu-degree">Intermediate — PCM</div><div class="edu-school">Jawahar Navodaya Vidyalaya (JNV)</div></div>
+        <div class="edu-year">2022 – 2024</div>
+      </div>
+      <div class="edu-item">
+        <div><div class="edu-degree">Matriculation</div><div class="edu-school">Jawahar Navodaya Vidyalaya (JNV)</div></div>
+        <div class="edu-year">2017 – 2022</div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Projects</div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-name"><i class="ti ti-world" aria-hidden="true"></i>Portfolio Website</div>
+          <div class="project-desc">Personal portfolio built with HTML, CSS & JavaScript showcasing projects and skills.</div>
+        </div>
+        <div class="project-card">
+          <div class="project-name"><i class="ti ti-cursor-text" aria-hidden="true"></i>Cursor Snake Animation</div>
+          <div class="project-desc">Interactive JS animation that creates a snake trail following the user's mouse cursor.</div>
+        </div>
+        <div class="project-card">
+          <div class="project-name"><i class="ti ti-camera" aria-hidden="true"></i>Webcam App</div>
+          <div class="project-desc">Browser-based webcam application using JavaScript and the MediaDevices API.</div>
+        </div>
+        <div class="project-card">
+          <div class="project-name"><i class="ti ti-alarm" aria-hidden="true"></i>Digital Alarm</div>
+          <div class="project-desc">Functional digital alarm clock built with vanilla JavaScript, HTML & CSS.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
