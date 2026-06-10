@@ -1,25 +1,30 @@
-# Resume Website
+# 🚀 Personal Resume Website
 
-A personal resume website built using HTML, CSS, and JavaScript.  
-This project showcases my skills, education, projects, and contact information in a clean and responsive design.
+Welcome to my personal resume website!  
+A modern and responsive portfolio showcasing my skills, projects, achievements, and coding journey.
 
-## Features
+## ✨ Features
 
-- Responsive Design
-- About Me Section
-- Skills Showcase
-- Project Portfolio
-- Contact Information
-- Modern UI
+- 👨‍💻 About Me
+- 🛠️ Skills Section
+- 📂 Projects Showcase
+- 🏆 Achievements
+- 📜 Certifications
+- 📱 Fully Responsive Design
+- 📬 Contact Information
 
-## Technologies Used
+## 💻 Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
+- 🌐 HTML5
+- 🎨 CSS3
+- ⚡ JavaScript
 
-## Installation
+## 📁 Project Structure
 
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/resume-website.git
+```text
+resume-website/
+├── 📄 index.html
+├── 🎨 style.css
+├── ⚡ script.js
+└── 📂 assets/
+git clone https://github.com/nandu_bodra_/resume-website.git
